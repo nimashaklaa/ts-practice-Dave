@@ -5,7 +5,7 @@ type SectionProps = {
     children: ReactNode
 }
 
-export const Section =({children,title}:SectionProps )=>{
+export const Section =({children,title = "My Subheading"}:SectionProps )=>{
     return(
         <section>
             <h2>{title}</h2>
